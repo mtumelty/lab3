@@ -1,19 +1,23 @@
+<!DOCTYPE html>
 <html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("p").mouseover(function(){
+		$("p").css("background-color", "orange");
+	});
+	$("p").mouseout(function(){
+		$("p").css("background-color", "grey");
+	});
+})
+</script>
 	<head>
+		<link rel="stylesheet" href="styles.css">
 		<title>My webpage</title>
-		<style>
-			h1{
-				color: orange;
-			}
-			p{
-				color: blue;
-			}
-		</style>
 	</head>
 	<body>
 		<h1>Welcome to the Thunderdome!</h1>
-		<p>
-			Hello world! This is a story of a girl...
-		</p>
+		<p>Prepare to be ELECTRIFIED</p>
+		<embed src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemighty%2Fvideos%2F988461094619125%2F" width="476" height="476" allowFullScreen></embed>
 	</body>
 </html>
